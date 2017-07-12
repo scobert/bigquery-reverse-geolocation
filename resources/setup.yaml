@@ -1,7 +1,7 @@
 # [START setup]
 env:
 # Change to your project ID
-    PROJECT_ID: 'your-project-id'
+    PROJECT_ID: 'coderodeo-173501'
 # Change to  datasetid
     DATASET_ID: 'sandiego_freeways'
 # Change to tableid
@@ -9,9 +9,9 @@ env:
 # Change this to your pubsub topic
     PUBSUB_TOPIC: 'projects/your-project-id/topics/traffic'
 # Change the following to your rootdir
-    ROOTDIR: '/tmp/creds/data'
+    ROOTDIR: 'bigquery-reverse-geolocation/resources/data'
 # Change the following to your pull subscription    
-    SUBSCRIPTION: 'projects/your-project-id/subscriptions/mysubscription'
+    SUBSCRIPTION: 'projects/coderodeo-173501/subscriptions/mysubscription'
 # Change to your Google Maps API Key, see https://developers.google.com/maps/web-services/
-    MAPS_API_KEY: 'Your-server-key'
+    MAPS_API_KEY: 'AIzaSyC7Vg3lOpkOT7f1PiJi7tQKQm1r1FnRLH0'
 # [END setup]
